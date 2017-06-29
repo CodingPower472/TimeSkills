@@ -14,6 +14,7 @@
 		9B35D3521F05245C002EFBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B35D3501F05245C002EFBB0 /* LaunchScreen.storyboard */; };
 		9B35D35D1F05245C002EFBB0 /* TimeSkillsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35D35C1F05245C002EFBB0 /* TimeSkillsTests.swift */; };
 		9B35D3681F05245C002EFBB0 /* TimeSkillsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35D3671F05245C002EFBB0 /* TimeSkillsUITests.swift */; };
+		9BEF415B1F05869200A701FA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF415A1F05869200A701FA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9B35D3631F05245C002EFBB0 /* TimeSkillsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSkillsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B35D3671F05245C002EFBB0 /* TimeSkillsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSkillsUITests.swift; sourceTree = "<group>"; };
 		9B35D3691F05245C002EFBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BEF415A1F05869200A701FA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		9B35D33B1F05245B002EFBB0 = {
 			isa = PBXGroup;
 			children = (
+				9BEF415A1F05869200A701FA /* README.md */,
 				9B35D3461F05245C002EFBB0 /* TimeSkills */,
 				9B35D35B1F05245C002EFBB0 /* TimeSkillsTests */,
 				9B35D3661F05245C002EFBB0 /* TimeSkillsUITests */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					9B35D3431F05245C002EFBB0 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BKWQHVH7T9;
 						ProvisioningStyle = Automatic;
 					};
 					9B35D3571F05245C002EFBB0 = {
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEF415B1F05869200A701FA /* README.md in Sources */,
 				9B35D34A1F05245C002EFBB0 /* ViewController.swift in Sources */,
 				9B35D3481F05245C002EFBB0 /* AppDelegate.swift in Sources */,
 			);
@@ -414,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKWQHVH7T9;
 				INFOPLIST_FILE = TimeSkills/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Protodevs.TimeSkills;
@@ -426,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKWQHVH7T9;
 				INFOPLIST_FILE = TimeSkills/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Protodevs.TimeSkills;
@@ -507,6 +514,7 @@
 				9B35D36E1F05245C002EFBB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B35D36F1F05245C002EFBB0 /* Build configuration list for PBXNativeTarget "TimeSkillsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				9B35D3711F05245C002EFBB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B35D3721F05245C002EFBB0 /* Build configuration list for PBXNativeTarget "TimeSkillsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				9B35D3741F05245C002EFBB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
